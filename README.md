@@ -22,9 +22,13 @@ This project is the creation of the back end for an e-commerce site. This applic
 
 
 
+https://user-images.githubusercontent.com/102001384/167054755-8437ede9-3906-4531-96af-8e56b52c5bf4.mp4
+
+
+
 ## Installation
 
-Clone the repo down to your local so you have the Node project on your local.<br>
+Clone the repo down to your local so you have the project on your local.<br>
 Now Run the following commands in order to install the npm package dependencies as specified in the package.json
 
 >npm install <br>
@@ -32,9 +36,16 @@ Now Run the following commands in order to install the npm package dependencies 
 
 ## Usage
 
-Run the following command at the root of your peoject in the terminal and answer the prompts.</br>
+Open up MySQL shell and input
+
+>source db/schema.sql<br>
+>use ecommerce_db<br>
+
+Run the following command at the root of your project in the terminal. </br>
 >npm run seeds<br>
 >node server.js <br>
+
+Open up Insomnia core to GET, POST, PUT and DELETE from different routes.
 
 
 ## Contact Info
